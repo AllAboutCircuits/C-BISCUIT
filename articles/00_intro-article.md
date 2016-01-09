@@ -7,7 +7,7 @@ This is the beginning of a multi-part, multi-author series on how to build your 
 
 <img src="./assets/wandboard-quad.png" alt="Wandboard Quad" style="width: 640px;"/>
 
-A _very_ capapble machine for ~$130 USD
+A _very_ capable machine for ~$130 USD
 
 _Full disclosure: AllAboutCircuits.com has a partnership with Freescale electronics which did influence our decision to use this part_
 
