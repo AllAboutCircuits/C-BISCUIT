@@ -3,7 +3,7 @@
 # C-BISCUIT: A  DIY Robotics Platform for the Hacker and Hobbyist
 
 ## Introduction
-This is the beginning of a multi-part, multi-author series on how to build your own robotics platform called C-BISCUIT, an acronym for **C**ollaborative **B**ot with **I**ntegrated **C**ore, **U**nmanned **I**nteractivity, and **T**elemetry. Based on the [Wandboard Quad](http://www.wandboard.org/), the idea is to collaboratively build a "core" module that can be dropped into various vehicle chassis (quadcopter, land rover, etc) and be reconfigured to perform the tasks of each vehicle. The Wandboard is a system-on-module (SOM) based around the quad-core i.MX6 Cortex-A9 processor from Freescale and is capable of running Linux and on top of that, the [Robot Operating System (ROS)](http://www.ros.org/).
+This is the beginning of a multi-part, multi-author series on how to build your own robotics platform called C-BISCUIT, an acronym for **C**ollaborative **B**ot with **I**ntegrated **S**ystem **C**ore, **U**nmanned **I**nteractivity, and **T**elemetry. Based on the [Wandboard Quad](http://www.wandboard.org/), the idea is to collaboratively build a "core" module that can be dropped into various vehicle chassis (quadcopter, land rover, etc) and be reconfigured to perform the tasks of each vehicle. The Wandboard is a system-on-module (SOM) based around the quad-core i.MX6 Cortex-A9 processor from Freescale and is capable of running Linux and on top of that, the [Robot Operating System (ROS)](http://www.ros.org/).
 
 <img src="./assets/wandboard-quad.png" alt="Wandboard Quad" style="width: 640px;"/>
 
@@ -38,6 +38,25 @@ In addition, the core module by itself is not particularly useful without some f
 A ready-made robot chassis kit
 
 Other components will be detailed in subsequent tutorials. The following section will hold the articles. Bookmark this page and check back regularly for updates.
+
+
+## The Right Tools for the Job
+
+Along the way, we'll mention in articles tied to particular subsystems any special tools needed to complete the section. That being said, there are some things that you'll need for the build, and some that are not required but you may find useful. Both are listed below:
+
+### Essentials
+
+- Digital multimeter
+- Basic screwdriver kit or multi-tool
+- Wire cutters/strippers
+- A flat desk or other workspace
+
+### Nice-to-Have's
+
+- An oscilloscope
+- Zip ties
+- Extra wiring and USB cables
+
 
 ## Project Articles
 None yet. Stay tuned!
