@@ -2,7 +2,7 @@
 
 # C-BISCUIT: A  DIY Robotics Platform for the Hacker and Hobbyist
 
-_Full disclosure: AllAboutCircuits.com has a partnership with Freescale electronics which did influence our decision to use this part_
+_Full disclosure: AllAboutCircuits.com has a partnership with Freescale electronics which did influence our decision to use the Wandboard_
 
 ## Introduction
 This is the beginning of a multi-part, multi-author series on how to build your own robotics platform called C-BISCUIT, an acronym for **C**ollaborative **B**ot with **I**ntegrated **S**ystem **C**ore, **U**nmanned **I**nteractivity, and **T**elemetry. Based on the [Wandboard Quad](http://www.wandboard.org/), the idea is to collaboratively build a "core" module that can be dropped into various vehicle chassis (quadcopter, land rover, etc) and be easily reconfigured to perform the tasks of each vehicle. The Wandboard is a system-on-module (SOM) based around the quad-core i.MX6 Cortex-A9 processor from Freescale and is capable of running Linux and on top of that, the [Robot Operating System (ROS)](http://www.ros.org/).
