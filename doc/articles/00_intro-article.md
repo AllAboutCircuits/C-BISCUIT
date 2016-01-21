@@ -11,7 +11,7 @@ This is the beginning of a multi-part, multi-author series on how to build your 
 
 A _very_ capable machine for ~$130 USD
 
-[Trevor Gamblin](http://www.allaboutcircuits.com/author/trevor-gamblin), Nick Bentzen, and [Patrick Lloyd](http://www.allaboutcircuits.com/author/patrick-lloyd) are the primary authors of the project, but the code and design files can be found on [Github](https://github.com/AllAboutCircuits/C-BISCUIT). It is very much a work-in-progress so there is no guarantee that the code there is stable or in working order. Check back here regularly for stable releases and updated tutorials.
+[Trevor Gamblin](http://www.allaboutcircuits.com/author/trevor-gamblin), [Nick Bentzen](http://www.allaboutcircuits.com/author/nick-bentzen), and [Patrick Lloyd](http://www.allaboutcircuits.com/author/patrick-lloyd) are the primary authors of the project, but the code and design files can be found on [Github](https://github.com/AllAboutCircuits/C-BISCUIT). It is very much a work-in-progress so there is no guarantee that the code there is stable or in working order. Check back here regularly for stable releases and updated tutorials.
 
 ## System Overview
 The core module can be broken down into several key hardware and software components, each of which can be seen in the flowchart below:
