@@ -7,7 +7,7 @@ _Full disclosure: AllAboutCircuits.com has a partnership with Freescale electron
 ## Introduction
 This is the beginning of a multi-part, multi-author series on how to build your own robotics platform called C-BISCUIT, an acronym for **C**ollaborative **B**ot with **I**ntegrated **S**ystem **C**ore, **U**nmanned **I**nteractivity, and **T**elemetry. Based on the [Wandboard Quad](http://www.wandboard.org/), the idea is to collaboratively build a "core" module that can be dropped into various vehicle chassis (quadcopter, land rover, etc) and be easily reconfigured to perform the tasks of each vehicle. The Wandboard is a system-on-module (SOM) based around the quad-core i.MX6 Cortex-A9 processor from Freescale and is capable of running Linux and on top of that, the [Robot Operating System (ROS)](http://www.ros.org/).
 
-<img src="./assets/wandboard-quad.png" alt="Wandboard Quad" style="width: 640px;"/>
+<img src="./assets/wandboard-quad.jpg" alt="Wandboard Quad" style="width: 640px;"/>
 
 A _very_ capable machine for ~$130 USD
 
@@ -16,7 +16,7 @@ A _very_ capable machine for ~$130 USD
 ## System Overview
 The core module can be broken down into several key hardware and software components, each of which can be seen in the flowchart below:
 
-<img src="./assets/core-flowchart.png" alt="C-BISCUIT Core Flowchart" style="width: 640px;"/>
+<img src="./assets/core-flowchart.jpg" alt="C-BISCUIT Core Flowchart" style="width: 640px;"/>
 
 Separate tutorials will be produced for the various subsystems while more advanced concepts like mapping / localization and computer vision may require several to fill in all the details. In some cases, it may seem like the authors are reinventing the wheel (for example, building our own dual-channel power supply board instead of just buying one). However, the main goal of this project is to provide a learning platform for as many elements of robotics as possible.
 
