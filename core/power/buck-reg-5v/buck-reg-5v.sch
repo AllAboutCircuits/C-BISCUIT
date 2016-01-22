@@ -1,0 +1,299 @@
+EESchema Schematic File Version 2
+LIBS:buck-reg-5v
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:buck-reg-5v-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM431 D?
+U 1 1 56A298BF
+P 9400 2000
+F 0 "D?" H 9528 2046 50  0000 L CNN
+F 1 "LM431" H 9528 1954 50  0000 L CNN
+F 2 "" V 9400 2000 50  0000 C CNN
+F 3 "" V 9400 2000 50  0000 C CNN
+	1    9400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56A29954
+P 8900 2200
+F 0 "R?" H 8831 2154 50  0000 R CNN
+F 1 "R" H 8831 2246 50  0000 R CNN
+F 2 "" V 8830 2200 50  0000 C CNN
+F 3 "" H 8900 2200 50  0000 C CNN
+	1    8900 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 56A299A0
+P 9400 1550
+F 0 "R?" H 9470 1596 50  0000 L CNN
+F 1 "R" H 9470 1504 50  0000 L CNN
+F 2 "" V 9330 1550 50  0000 C CNN
+F 3 "" H 9400 1550 50  0000 C CNN
+	1    9400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F?
+U 1 1 56A29A9A
+P 8650 1350
+F 0 "F?" H 8650 1591 50  0000 C CNN
+F 1 "3A" H 8650 1499 50  0000 C CNN
+F 2 "" H 8650 1350 50  0000 C CNN
+F 3 "" H 8650 1350 50  0000 C CNN
+	1    8650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56A29EAD
+P 9150 2450
+F 0 "#PWR?" H 9150 2200 50  0001 C CNN
+F 1 "GND" H 9158 2276 50  0000 C CNN
+F 2 "" H 9150 2450 50  0000 C CNN
+F 3 "" H 9150 2450 50  0000 C CNN
+	1    9150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 56A2A94D
+P 9050 1650
+F 0 "RV?" V 9004 1567 50  0000 R CNN
+F 1 "POT" V 9096 1567 50  0000 R CNN
+F 2 "" H 9100 1650 50  0000 C CNN
+F 3 "" H 9100 1650 50  0000 C CNN
+	1    9050 1650
+	0    -1   1    0   
+$EndComp
+NoConn ~ 9050 1850
+$Comp
+L BT151S-500R U?
+U 1 1 56A2C09D
+P 10000 1750
+F 0 "U?" H 10127 1704 50  0000 L CNN
+F 1 "BT151S-500R" H 10127 1796 50  0000 L CNN
+F 2 "" V 10000 1750 50  0000 C CNN
+F 3 "" V 10000 1750 50  0000 C CNN
+	1    10000 1750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8900 1350 9050 1350
+Wire Wire Line
+	9050 1350 9400 1350
+Wire Wire Line
+	9400 1350 10000 1350
+Wire Wire Line
+	10000 1350 10250 1350
+Wire Wire Line
+	9050 1350 9050 1450
+Connection ~ 9050 1350
+Wire Wire Line
+	9400 1700 9400 1750
+Wire Wire Line
+	9400 1750 9400 1800
+Wire Wire Line
+	8900 2000 9200 2000
+Connection ~ 8900 2000
+Wire Wire Line
+	8900 1650 8900 2000
+Wire Wire Line
+	8900 2000 8900 2050
+Wire Wire Line
+	8900 2350 8900 2400
+Wire Wire Line
+	9400 2400 9400 2200
+Wire Wire Line
+	9150 2400 9150 2450
+Connection ~ 9150 2400
+Connection ~ 9400 1350
+Wire Wire Line
+	9400 1750 9800 1750
+Connection ~ 9400 1750
+Connection ~ 9400 2400
+Wire Wire Line
+	9400 1350 9400 1400
+Wire Wire Line
+	10000 1350 10000 1550
+Wire Wire Line
+	10000 2400 10000 1950
+Wire Wire Line
+	8900 2400 9150 2400
+Wire Wire Line
+	9150 2400 9400 2400
+Wire Wire Line
+	9400 2400 10000 2400
+Connection ~ 10000 1350
+$Comp
+L +5V #PWR?
+U 1 1 56A2C939
+P 10250 1350
+F 0 "#PWR?" H 10250 1200 50  0001 C CNN
+F 1 "+5V" H 10268 1524 50  0000 C CNN
+F 2 "" H 10250 1350 50  0000 C CNN
+F 3 "" H 10250 1350 50  0000 C CNN
+	1    10250 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1350 8000 1350
+Text Label 8000 1350 0    60   ~ 0
+5V_REG
+Wire Notes Line
+	7950 1000 7950 2700
+Wire Notes Line
+	7950 2700 10700 2700
+Wire Notes Line
+	10700 2700 10700 1000
+Wire Notes Line
+	10700 1000 7950 1000
+Text Notes 10700 1000 2    60   ~ 0
+Crowbar Circuit
+$Comp
+L CONN_01X02 P?
+U 1 1 56A2D9A9
+P 9700 4450
+F 0 "P?" H 9777 4488 50  0000 L CNN
+F 1 "CONN_01X02" H 9777 4396 50  0000 L CNN
+F 2 "" H 9700 4450 50  0000 C CNN
+F 3 "" H 9700 4450 50  0000 C CNN
+	1    9700 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4000 9450 4050
+Wire Wire Line
+	9450 4050 9450 4400
+Wire Wire Line
+	9450 4400 9500 4400
+Wire Wire Line
+	9400 4500 9500 4500
+$Comp
+L CONN_01X02 P?
+U 1 1 56A2DD95
+P 9700 4100
+F 0 "P?" H 9777 4138 50  0000 L CNN
+F 1 "CONN_01X02" H 9777 4046 50  0000 L CNN
+F 2 "" H 9700 4100 50  0000 C CNN
+F 3 "" H 9700 4100 50  0000 C CNN
+	1    9700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4050 9500 4050
+Wire Wire Line
+	9400 4150 9500 4150
+Wire Wire Line
+	9400 4150 9400 4500
+Wire Wire Line
+	9400 4500 9400 4550
+Connection ~ 9450 4050
+$Comp
+L +5V #PWR?
+U 1 1 56A2DF79
+P 9450 4000
+F 0 "#PWR?" H 9450 3850 50  0001 C CNN
+F 1 "+5V" H 9468 4174 50  0000 C CNN
+F 2 "" H 9450 4000 50  0000 C CNN
+F 3 "" H 9450 4000 50  0000 C CNN
+	1    9450 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9400 4500
+$Comp
+L GND #PWR?
+U 1 1 56A2E087
+P 9400 4550
+F 0 "#PWR?" H 9400 4300 50  0001 C CNN
+F 1 "GND" H 9408 4376 50  0000 C CNN
+F 2 "" H 9400 4550 50  0000 C CNN
+F 3 "" H 9400 4550 50  0000 C CNN
+	1    9400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 56A2E2A2
+P 9700 5050
+F 0 "P?" H 9777 5088 50  0000 L CNN
+F 1 "CONN_01X02" H 9777 4996 50  0000 L CNN
+F 2 "" H 9700 5050 50  0000 C CNN
+F 3 "" H 9700 5050 50  0000 C CNN
+	1    9700 5050
+	1    0    0    -1  
+$EndComp
+Text Label 9300 5000 0    60   ~ 0
+VIN
+Wire Wire Line
+	9500 5000 9300 5000
+Wire Wire Line
+	9500 5100 9400 5100
+Wire Wire Line
+	9400 5100 9400 5150
+$Comp
+L GND #PWR?
+U 1 1 56A2E387
+P 9400 5150
+F 0 "#PWR?" H 9400 4900 50  0001 C CNN
+F 1 "GND" H 9408 4976 50  0000 C CNN
+F 2 "" H 9400 5150 50  0000 C CNN
+F 3 "" H 9400 5150 50  0000 C CNN
+	1    9400 5150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9250 3750 9250 5400
+Wire Notes Line
+	9250 5400 10300 5400
+Wire Notes Line
+	10300 5400 10300 3750
+Wire Notes Line
+	10300 3750 9250 3750
+Text Notes 10300 3750 2    60   ~ 0
+Input/Output
+$EndSCHEMATC

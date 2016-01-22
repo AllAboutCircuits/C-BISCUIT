@@ -1,0 +1,44 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BT151S-500L
+D Passivated thyristor in a SOT428 plastic package
+K THYRISTOR SCR
+F http://www.nxp.com/documents/data_sheet/BT151S_SER_L_R.pdf
+$ENDCMP
+#
+$CMP BT151S-500R
+D Passivated thyristor in a SOT428 plastic package
+K THYRISTOR SCR
+F http://www.nxp.com/documents/data_sheet/BT151S_SER_L_R.pdf
+$ENDCMP
+#
+$CMP BT151S-650L
+D Passivated thyristor in a SOT428 plastic package
+K THYRISTOR SCR
+F http://www.nxp.com/documents/data_sheet/BT151S_SER_L_R.pdf
+$ENDCMP
+#
+$CMP BT151S-650R
+D Passivated thyristor in a SOT428 plastic package
+K THYRISTOR SCR
+F http://www.nxp.com/documents/data_sheet/BT151S_SER_L_R.pdf
+$ENDCMP
+#
+$CMP BT151S-800R
+D Passivated thyristor in a SOT428 plastic package
+K THYRISTOR SCR
+F http://www.nxp.com/documents/data_sheet/BT151S_SER_L_R.pdf
+$ENDCMP
+#
+$CMP LM431
+D  Adjustable Precision Zener Shunt Regulator
+K DEV DIODE ZENER SHUNT
+F http://www.ti.com/lit/ds/symlink/lm431.pdf
+$ENDCMP
+#
+$CMP POT
+D Potentiometer
+K R RV POT POTENTIOMETER 
+$ENDCMP
+#
+#End Doc Library
