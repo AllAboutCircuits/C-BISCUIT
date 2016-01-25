@@ -30,6 +30,18 @@ K THYRISTOR SCR
 F http://www.nxp.com/documents/data_sheet/BT151S_SER_L_R.pdf
 $ENDCMP
 #
+$CMP LM25576
+D SIMPLE SWITCHER 42V, 3A Step-Down Switching Regulator
+K REGULATOR POWER BUCK
+F http://www.ti.com/lit/ds/symlink/lm25576.pdf
+$ENDCMP
+#
+$CMP LM25576-Q1
+D SIMPLE SWITCHER 42V, 3A Step-Down Switching Regulator
+K REGULATOR POWER BUCK
+F http://www.ti.com/lit/ds/symlink/lm25576.pdf
+$ENDCMP
+#
 $CMP LM431
 D  Adjustable Precision Zener Shunt Regulator
 K DEV DIODE ZENER SHUNT
