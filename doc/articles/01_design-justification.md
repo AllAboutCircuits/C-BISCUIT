@@ -1,3 +1,5 @@
+<img src="./assets/camera-rover-thumb.jpg" alt="Your bot could look like this one day..." style="width: 640px;"/>
+
 # C-BISCUIT: Design Choices and Justification
 
 ## Introduction
@@ -53,7 +55,7 @@ We'll list a few of them below, as we might still look into them for later varia
 
 **[Intel RealSense](http://click.intel.com/intel-realsense-developer-kit.html):** The RealSense looked like a lot of fun and is generating a lot of buzz (not to mention, it sits at a great price point at $100), but the USB 3.0 interface made it a no-go for the Wandboard.
 
-**[The Intel NUC Series](http://www.intel.com/content/www/us/en/nuc/overview.html):** No doubt you've heard of these mini-PC systems. We thought long and hard about using one of these in lieu of the Wandboard to expand our USB peripheral options (it _does_ support USB 3.0), but even the least expensive models dwarfed the Wandboard Quad in price point. That's not to say it can't be used for a cool robot: https://www.youtube.com/watch?v=jfAEUkANyaA
+**[The Intel NUC Series](http://www.intel.com/content/www/us/en/nuc/overview.html):** No doubt you've heard of these mini-PC systems. We thought long and hard about using one of these in lieu of the Wandboard to expand our USB peripheral options (it _does_ support USB 3.0), but even the least expensive models dwarfed the Wandboard Quad in price point. That's not to say it can't be used for a [cool robot](https://www.youtube.com/watch?v=jfAEUkANyaA).
 
 ## Next Steps
 
