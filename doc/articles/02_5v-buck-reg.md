@@ -69,10 +69,11 @@ _Pretty 3D rendering in [OSHPark purple](https://oshpark.com/)_
 
 All the design files are available on [Github](https://github.com/AllAboutCircuits/C-BISCUIT/tree/master/core/power) or as a self-contained ZIP file. Included in the ZIP file are the schematic, layout, and BOM files as well as part libraries and datasheets.
 
-Something.zip
+<a href="./assets/buck-reg-5v.zip">buck-reg-5v.zip</a>
+
 
 ## Moving Forward
 
-The next step in the C-BISCUIT power series is a small over-current and over-voltage protection circuit that can be added in-line between the regulator and the Wandboard. In addition, we will be designing a battery power distribution board with hot-swap / shore power capabilities and voltage / current monitoring. Also in the near future we will be populating and testing this buck regulator design. For more information on other applications of the buck regulator, check out David Knight's article [here](http://www.allaboutcircuits.com/technical-articles/buck-converters-and-their-cool-applications/).
+The next step in the C-BISCUIT power series (in addition to assembly and testing of this board when it gets back from the fab) is a small over-current and over-voltage protection circuit that can be added in-line between the regulator and the Wandboard. In addition, we will be designing a battery power distribution board with hot-swap / shore power capabilities and voltage / current monitoring. For more information on other applications of the buck regulator, check out David Knight's article [here](http://www.allaboutcircuits.com/technical-articles/buck-converters-and-their-cool-applications/).
 
 Until next time, happy hacking...
