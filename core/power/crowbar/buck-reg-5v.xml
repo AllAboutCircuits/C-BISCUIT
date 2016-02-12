@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jimbo/Desktop/C-BISCUIT/core/power/buck-reg-5v-no-crowbar/buck-reg-5v.sch</source>
-    <date>Fri 12 Feb 2016 03:49:28 PM EST</date>
-    <tool>Eeschema 0.201602020917+6532~42~ubuntu15.04.1-product</tool>
+    <source>/home/jimbo/Desktop/C-BISCUIT/core/power/buck-reg-5v/buck-reg-5v.sch</source>
+    <date>Sun 31 Jan 2016 05:00:06 PM EST</date>
+    <tool>Eeschema 0.201601280802+6517~42~ubuntu15.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -19,6 +19,69 @@
     </sheet>
   </design>
   <components>
+    <comp ref="D2">
+      <value>LM431</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <libsource lib="buck-reg-5v" part="LM431"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A298BF</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.49K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A29954</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A299A0</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>3A</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A29A9A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>BT151S-500R</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="buck-reg-5v" part="BT151S-500R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A2C09D</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MOUNTING_HOLE</value>
+      <footprint>C-BISCUIT:Mounting_Hole_M3x0.5L_~Plate~_~Pad~</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A64AF0</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MOUNTING_HOLE</value>
+      <footprint>C-BISCUIT:Mounting_Hole_M3x0.5L_~Plate~_~Pad~</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A64B92</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MOUNTING_HOLE</value>
+      <footprint>C-BISCUIT:Mounting_Hole_M3x0.5L_~Plate~_~Pad~</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A64BC7</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MOUNTING_HOLE</value>
+      <footprint>C-BISCUIT:Mounting_Hole_M3x0.5L_~Plate~_~Pad~</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A64C01</tstamp>
+    </comp>
     <comp ref="U1">
       <value>LM25576</value>
       <footprint>C-BISCUIT:SOIC-20-1EP</footprint>
@@ -169,6 +232,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56A744A6</tstamp>
     </comp>
+    <comp ref="R6">
+      <value>3.48K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A82261</tstamp>
+    </comp>
     <comp ref="P1">
       <value>CONN_01X02</value>
       <footprint>C-BISCUIT:Conn_01x02_5.0mm_Phoenix_1935161</footprint>
@@ -190,29 +260,30 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56AF19C8</tstamp>
     </comp>
-    <comp ref="W2">
-      <value>TP</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x01</footprint>
-      <libsource lib="conn" part="TEST_1P"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56AF146F</tstamp>
-    </comp>
-    <comp ref="W1">
-      <value>TP</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x01</footprint>
-      <libsource lib="conn" part="TEST_1P"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56AF2A2E</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>150uF</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_HandSoldering</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56AF7AD0</tstamp>
-    </comp>
   </components>
   <libparts>
+    <libpart lib="buck-reg-5v" part="BT151S-500R">
+      <aliases>
+        <alias>BT151S-500L</alias>
+        <alias>BT151S-650L</alias>
+        <alias>BT151S-650R</alias>
+        <alias>BT151S-800R</alias>
+      </aliases>
+      <description>Passivated thyristor in a SOT428 plastic package</description>
+      <docs>http://www.nxp.com/documents/data_sheet/BT151S_SER_L_R.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BT151S-500R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="C">
       <description>Unpolarized capacitor</description>
       <footprints>
@@ -229,6 +300,22 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_01X02">
@@ -285,6 +372,16 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="INDUCTOR_SMALL">
       <fields>
         <field name="Reference">L</field>
@@ -328,6 +425,19 @@
         <pin num="20" name="BST" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="buck-reg-5v" part="LM431">
+      <description> Adjustable Precision Zener Shunt Regulator</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm431.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LM431</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="Ref" type="input"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="R">
       <description>Resistor</description>
       <footprints>
@@ -343,130 +453,148 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="TEST_1P">
-      <description>point</description>
-      <fields>
-        <field name="Reference">W</field>
-        <field name="Value">TEST_1P</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="buck-reg-5v">
-      <uri>lib/buck-reg-5v.lib</uri>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
+    <library logical="buck-reg-5v">
+      <uri>/home/jimbo/Desktop/C-BISCUIT/core/power/buck-reg-5v/lib/buck-reg-5v.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/BAT_IN">
-      <node ref="C3" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="P2" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U1" pin="4"/>
+    <net code="1" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="2" name="/SD">
-      <node ref="W1" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="R1" pin="2"/>
+    <net code="2" name="Net-(C6-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="C6" pin="1"/>
     </net>
-    <net code="3" name="GND">
+    <net code="3" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C11" pin="2"/>
       <node ref="U1" pin="10"/>
       <node ref="U1" pin="13"/>
       <node ref="U1" pin="14"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="P1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="C7" pin="2"/>
       <node ref="C3" pin="2"/>
       <node ref="C5" pin="2"/>
       <node ref="R2" pin="2"/>
       <node ref="P2" pin="2"/>
-      <node ref="C13" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D2" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C2" pin="2"/>
     </net>
-    <net code="4" name="/FB">
-      <node ref="U1" pin="7"/>
-      <node ref="C6" pin="2"/>
-      <node ref="R9" pin="1"/>
-      <node ref="R8" pin="2"/>
-      <node ref="C4" pin="2"/>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="11"/>
     </net>
-    <net code="5" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="6" name="/COMP">
-      <node ref="R4" pin="1"/>
-      <node ref="U1" pin="6"/>
-      <node ref="C4" pin="1"/>
-    </net>
-    <net code="7" name="/RAMP">
+    <net code="6" name="Net-(C1-Pad2)">
       <node ref="C1" pin="2"/>
       <node ref="U1" pin="9"/>
     </net>
-    <net code="8" name="/SS">
-      <node ref="U1" pin="11"/>
-      <node ref="C2" pin="1"/>
+    <net code="7" name="Net-(C10-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="C10" pin="1"/>
     </net>
-    <net code="9" name="/RT">
-      <node ref="U1" pin="8"/>
-      <node ref="R3" pin="1"/>
+    <net code="8" name="Net-(C4-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C4" pin="2"/>
     </net>
-    <net code="10" name="/IS">
-      <node ref="D1" pin="2"/>
+    <net code="9" name="Net-(MH1-Pad1)">
+      <node ref="MH1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(MH2-Pad1)">
+      <node ref="MH2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(MH3-Pad1)">
+      <node ref="MH3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(MH4-Pad1)">
+      <node ref="MH4" pin="1"/>
+    </net>
+    <net code="13" name="+5V">
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="F1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="15" name="/BAT_IN">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C7" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C9-Pad2)">
+      <node ref="U1" pin="20"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad2)">
       <node ref="U1" pin="16"/>
       <node ref="U1" pin="15"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="11" name="/SYNC">
-      <node ref="W2" pin="1"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="12" name="/SW">
-      <node ref="C9" pin="1"/>
-      <node ref="C10" pin="2"/>
-      <node ref="U1" pin="17"/>
-      <node ref="U1" pin="18"/>
-      <node ref="U1" pin="19"/>
-      <node ref="L1" pin="1"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="13" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="14" name="/VCC">
+    <net code="18" name="Net-(C8-Pad1)">
       <node ref="C8" pin="1"/>
       <node ref="U1" pin="1"/>
     </net>
-    <net code="15" name="+5V">
-      <node ref="P1" pin="1"/>
-      <node ref="U1" pin="12"/>
-      <node ref="C12" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="R8" pin="1"/>
-      <node ref="C13" pin="1"/>
+    <net code="19" name="Net-(C10-Pad2)">
+      <node ref="U1" pin="19"/>
+      <node ref="C9" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U1" pin="17"/>
     </net>
-    <net code="16" name="/BST">
-      <node ref="C9" pin="2"/>
-      <node ref="U1" pin="20"/>
+    <net code="20" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(D2-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="22" name="/REG_OUT">
+      <node ref="C12" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="L1" pin="2"/>
+      <node ref="F1" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D2-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="3"/>
     </net>
   </nets>
 </export>
