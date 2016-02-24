@@ -19,3 +19,10 @@
 ## LibreOffice
 ##
 *~lock.*
+
+##
+## Untracked Folder
+## 
+# Folder in root dir called .untracked for storing files relevant to the
+# project but not necessarily important to share right away (if ever)
+.untracked/

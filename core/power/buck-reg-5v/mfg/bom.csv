@@ -1,0 +1,30 @@
+Reference, Value, Footprint,Link,Price
+C6,"0.01uF, 50V",Capacitors_SMD:C_0805_HandSoldering,http://www.digikey.com/product-detail/en/C0805C331K5RACTU/399-1140-1-ND/411415,$0.10
+C2,"0.01uF, 50V",Capacitors_SMD:C_0805_HandSoldering,http://www.digikey.com/product-detail/en/C0805C331K5RACTU/399-1140-1-ND/411415,$0.10
+C9,"0.022uF, 250V",Capacitors_SMD:C_0805_HandSoldering,http://www.digikey.com/product-detail/en/C2012X7R2E223K125AA/445-2281-1-ND/789790,$0.19
+C8,"0.47uF, 50V",Capacitors_SMD:C_0805_HandSoldering,http://www.digikey.com/product-detail/en/CL21B474KBFNFNE/1276-2966-1-ND/3891052,$0.23
+R5,"10, 1W",Resistors_SMD:R_2512_HandSoldering,http://www.digikey.com/product-detail/en/1622820-4/A102498CT-ND/2728448,$0.10
+R8,15.4K,Resistors_SMD:R_0805_HandSoldering,http://www.digikey.com/product-detail/en/RC0805FR-0715K4L/311-15.4KCRCT-ND/730557,$0.10
+C12,"150uF, 16V",Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_HandSoldering,http://www.digikey.com/product-detail/en/293D157X9016D2TE3/718-1746-1-ND/2259968,$1.33
+C13,"150uF, 16V",Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_HandSoldering,http://www.digikey.com/product-detail/en/293D157X9016D2TE3/718-1746-1-ND/2259968,$1.33
+C3,2.2uF,Capacitors_SMD:C_1812_HandSoldering,http://www.digikey.com/product-detail/en/HMK432B7225KM-T/587-1404-1-ND/931181,$0.88
+C7,2.2uF,Capacitors_SMD:C_1812_HandSoldering,http://www.digikey.com/product-detail/en/HMK432B7225KM-T/587-1404-1-ND/931181,$0.88
+R3,20.5K,Resistors_SMD:R_0805_HandSoldering,http://www.digikey.com/product-detail/en/RC0805FR-0720K5L/311-20.5KCRCT-ND/730669,$0.10
+C11,"22uF, 50V",Capacitors_SMD:C_1210_HandSoldering,http://www.digikey.com/product-detail/en/CL32B224KBFNNNE/1276-1777-1-ND/3889863,$0.28
+C10,"330pF, 50V",Capacitors_SMD:C_0805_HandSoldering,http://www.digikey.com/product-detail/en/C0805C331K5RACTU/399-1140-1-ND/411415,$0.10
+C1,"330pF, 50V",Capacitors_SMD:C_0805_HandSoldering,http://www.digikey.com/product-detail/en/C0805C331K5RACTU/399-1140-1-ND/411415,$0.10
+L1,33uH,C-BISCUIT:Inductor_EB_DR127,http://www.digikey.com/product-detail/en/DR127-330-R/513-1047-1-ND/695328,$1.28
+R9,4.99K,Resistors_SMD:R_0805_HandSoldering,http://www.digikey.com/product-detail/en/RC0805FR-074K99L/311-4.99KCRCT-ND/730885,$0.10
+R4,49.9K,Resistors_SMD:R_0805_HandSoldering,http://www.digikey.com/product-detail/en/RC0805FR-0749K9L/311-49.9KCRCT-ND/730932,$0.10
+P1,CONN_01X02,C-BISCUIT:Conn_01x02_5.0mm_Phoenix_1935161,http://www.digikey.com/product-search/en?vendor=0&keywords=Phoenix+1935161,$0.37
+P2,CONN_01X02,C-BISCUIT:Conn_01x02_5.0mm_Phoenix_1935161,http://www.digikey.com/product-search/en?vendor=0&keywords=Phoenix+1935161,$0.37
+D1,CSHD6-60C,TO_SOT_Packages_SMD:TO-252-2Lead,http://www.digikey.com/product-detail/en/CSHD6-60C%20TR13/CSHD6-60C%20TR13CT-ND/5324404,$1.45
+C4,DNP,Capacitors_SMD:C_0805_HandSoldering,n/a,$0.00
+R1,DNP,Resistors_SMD:R_0805_HandSoldering,n/a,$0.00
+R2,DNP,Resistors_SMD:R_0805_HandSoldering,n/a,$0.00
+C5,DNP,Capacitors_SMD:C_0805_HandSoldering,n/a,$0.00
+U1,LM25576,C-BISCUIT:SOIC-20-1EP,http://www.digikey.com/product-detail/en/LM25576MHX%2FNOPB/LM25576MHX%2FNOPBCT-ND/3526844,$4.91
+W2,TP,Socket_Strips:Socket_Strip_Straight_1x01,n/a,$0.00
+W1,TP,Socket_Strips:Socket_Strip_Straight_1x01,n/a,$0.00
+,,,,
+,,,Total:,$14.40
