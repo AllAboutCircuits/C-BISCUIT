@@ -7,7 +7,7 @@
 _An overview of the C-BISCUIT power system_
 
 ## Introduction
-In the previous C-BISCUIT article, we designed a DC-DC power converter to regulates our ~11V battery voltage to a nice, clean 5.0V. In an ideal world, this is all we'd ever need but the world is far from that and we need to consider protection circuitry in the event of upsets, namely over-voltage and over-current conditions. One way of doing this is with something called a "crowbar" circuit.
+In the previous C-BISCUIT article, we designed a DC-DC power converter to regulates our ~11V battery voltage to a nice, clean 5.0 V. In an ideal world, this is all we'd ever need but in the real world, we need to consider protection circuitry in the event of upsets, namely over-voltage and over-current conditions. One way of doing this is with something called a "crowbar" circuit.
 
 <img src="./assets/crowbar-9v.jpg" alt="Generic crowbar" style="width: 640px;"/>
 
@@ -42,7 +42,7 @@ _TINA schematic_
 
 _1 ms transient analysis simulation (click for full size)_
 
-From the transient analysis, we can see that once the input voltage reaches just about 6V, the Zener breaks down and the TRIAC gate voltage falls to 1.8V this is below the gate threshold voltage for Q3 operation and so we can safely assume that the TRIAC will start conducting and latch open until the fuse blows.
+From the transient analysis, we can see that once the input voltage reaches just about 6 V, the Zener breaks down and the TRIAC gate voltage falls to 1.8 V this is below the gate threshold voltage for Q3 operation and so we can safely assume that the TRIAC will start conducting and latch until the fuse blows.
 
 ## Layout
 
@@ -64,7 +64,7 @@ _Rendering (Bottom)_
 
 All the design files are available on [Github](https://github.com/AllAboutCircuits/C-BISCUIT/tree/master/core/power) or as a self-contained ZIP file below. Included in the ZIP file are the schematic, layout, and BOM files as well as part libraries and datasheets.
 
-<ZIP>
+LINK-TO-ZIP
 
 ## Moving Forward
 
