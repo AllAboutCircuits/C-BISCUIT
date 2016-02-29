@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BT137S
+D sensitive gate triac
+K triac
+F http://www.nxp.com/documents/data_sheet/BT137S_SERIES_E.pdf
+$ENDCMP
+#
+#End Doc Library

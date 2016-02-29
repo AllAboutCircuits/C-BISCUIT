@@ -1,0 +1,10 @@
+Reference, Value, Footprint, Datasheet,DigiKey
+D1,LM431,TO_SOT_Packages_SMD:SOT-23_Handsoldering,http://www.ti.com/lit/ds/symlink/lm431.pdf,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=191005758&uq=635923493785253873
+R2,2.49K,Resistors_SMD:R_0805_HandSoldering,http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=191006826&uq=635923493785273875
+R4,200,Resistors_SMD:R_0805_HandSoldering,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=191006477&uq=635923493785263874
+F1,3A,C-BISCUIT:3549-BLADE-CLIP,http://www.keyelco.com/product-pdf.cfm?p=303,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=191005487&uq=635923493785253873
+F1,"MINI ATC, MINI ATO",,http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_mini_datasheet.pdf,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=191005337&uq=635923493785243872
+R1,3.48K,Resistors_SMD:R_0805_HandSoldering,http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=191006822&uq=635923493785263874
+U1,BT137S,TO_SOT_Packages_SMD:TO-252-2Lead,http://www.nxp.com/documents/data_sheet/BT137S_SERIES_E.pdf,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=191005948&uq=635923493785253873
+R3,200,Resistors_SMD:R_0805_HandSoldering,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=191006477&uq=635923493785263874
+D2,RED,LEDs:LED-5MM,http://optekinc.com/datasheets/OVLGB0C6B9.pdf,http://www.digikey.com/product-detail/en/tt-electronics-optek-technology/OVLGS0C8B9/365-1189-ND/827125
