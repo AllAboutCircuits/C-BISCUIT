@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jimbo/Projects/C-BISCUIT/core/power/crowbar/crowbar.sch</source>
+    <date>Mon 29 Feb 2016 02:33:29 PM EST</date>
+    <tool>Eeschema 0.201602271447+6593~42~ubuntu15.04.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>crowbar.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LM431</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <libsource lib="C-BISCUIT" part="LM431"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A298BF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.49K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A29954</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A299A0</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>3A</value>
+      <footprint>C-BISCUIT:3549-BLADE-CLIP</footprint>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A29A9A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>3.48K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56A82261</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BT137S</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="C-BISCUIT" part="BT137S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE4571</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X01</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE6E49</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X01</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE6FF3</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X01</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE7540</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X01</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE782A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D0A97E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D0AA9E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="C-BISCUIT" part="BT137S">
+      <description>sensitive gate triac</description>
+      <docs>http://www.nxp.com/documents/data_sheet/BT137S_SERIES_E.pdf</docs>
+      <footprints>
+        <fp>DPAK*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BT137S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MT1" type="passive"/>
+        <pin num="2" name="MT2" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C-BISCUIT" part="LM431">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LM431</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="Ref" type="input"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="C-BISCUIT">
+      <uri>/home/jimbo/Projects/C-BISCUIT/core/power/crowbar/lib/C-BISCUIT.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DEVICE">
+      <node ref="R3" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="D1" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="3" name="/SUPPLY">
+      <node ref="P1" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+  </nets>
+</export>
