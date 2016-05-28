@@ -92,4 +92,5 @@ Double the ripple but still within 5% under full load (4.8%). Hopefully the low 
 [AME8816](http://www.ame.com.tw/Product/Datasheet/AME8816.pdf) 3v3 reg: 8v0 max
 
 ## Conclusion
+This is the best thing in da warld. The end.
 
