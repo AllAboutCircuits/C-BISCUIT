@@ -1,0 +1,80 @@
+#!/bin/bash
+# A bash script used for telling us the status of ROS and our other tools
+# at login. This script is intended to run using only bash built-ins and 
+# user-made functions, rather than any ROS commands 
+
+#tput variables for making your output look nice
+red=`tput setaf 1`
+green=`tput setaf 2`
+cyan=`tput setaf 6`
+default=`tput sgr0`
+
+#function to check whether or not a certain program is currently running
+prog_check ()
+{
+ check_ros_exec=`ps cax | grep $1`
+ if [[ $check_ros_exec ]]; then
+  printf "Checking for $1... ${green}Online${default}\n"
+ else
+  printf "Checking for $1... ${red}Offline${default}\n"
+ fi
+ return 0
+}
+
+#function to check details of current ssh sessions
+ssh_check ()
+{
+ sshlist=`who | grep -v localhost`
+ sshcount=`echo "$sshlist" | wc -l`
+ otherssh=$(($sshcount - 1))
+ printf "\n"
+ printf "LOGIN STATISTICS:\n\n"
+ if [ $otherssh -eq 1 ]; then
+  printf "There is currently ${cyan}${otherssh} other${default} ssh connection to the system.\n"
+ else
+  printf "There are currently ${cyan}${otherssh} other${default} ssh connections to the system.\n"
+ fi
+ printf "Listing remote login information...\n"
+ printf "${sshlist}\n\n"
+ return 0
+}
+
+system_check ()
+{
+printf "\n"
+printf "Showing system resource statistics...\n\n"
+free -m | awk 'NR==2{printf "Memory Usage: %s/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }'
+df -h | awk '$NF=="/"{printf "Disk Usage: %.2f/%.2fGB (%s)\n", $3,$2,$5}'
+top -bn1 | grep load | awk '{printf "CPU Load: %.2f\n", $(NF-2)}'
+printf "\n" 
+}
+
+devices_check ()
+{
+ ls /dev > currentdevs.txt
+ default_file="/home/ubuntu/default_devices.txt"
+ currentdevs="/home/ubuntu/currentdevs.txt"
+
+ printf "Checking for connected devices...\n\n"
+ newdevs=`grep -v -f "$default_file" "$currentdevs"`
+ devcount=`echo "$newdevs" | wc -l`
+ 
+ printf "${cyan}${devcount} total${default} devices found (all types).\n\n"
+ 
+ if [[ $newdevs ]]; then
+  printf "${newdevs}\n\n"
+ fi
+ rm currentdevs.txt
+}
+
+#Run section
+printf "\n"
+printf "Running ROS checklist...\n\n"
+
+prog_check roscore
+prog_check turtlesim
+prog_check teleop
+
+ssh_check
+system_check
+devices_check
